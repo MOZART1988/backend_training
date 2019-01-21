@@ -7,6 +7,9 @@
 * Перейти в директорию foo ```cd foo```
 * Выйти из директории foo ```cd ..```
 * Удалить директорию foo ```rm -r foo```
+### Материалы
+[Codecademy](https://www.codecademy.com/learn/learn-the-command-line)  
+[Command lLne Bootcamp](http://rik.smith-unna.com/command_line_bootcamp)  
 ## Git
 ### Чекпоинты
 * Инициализировать новый репозиторий из командной строки
@@ -21,10 +24,30 @@
 * Залить ветку master в удаленный репозиторий  
 
 \* сообщения комитов делать в соответствии [гайдланом](https://intra.rocketfirm.com/library/techies/850-git-commit-guidelines/) 
-## node & npm & yarn
+### Материалы
+[Learngitbranching](https://learngitbranching.js.org/)  
+## Node & NPM
 ### Чекпоинты
 * Установить менеджер версий node [nvm](https://github.com/creationix/nvm)
 * Установить последнюю [LTS](https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BB%D0%B3%D0%BE%D1%81%D1%80%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F) версию 
 * Установить глобально пакет ```http-server```
 * Установить локально пакет ```bootstrap```
 ## HTML
+### Чекпоинты
+* Создать директорию для проекта
+* Создать файл index.html с заготовком web страницы
+* Запустить из директории проекта пакет http-server и открыть страницу в браузере
+* Подключить стили из npm пакета ```bootstrap```
+* Создать макет сервиса управления задачами, по подобию trello, используюя bootstrap
+## CSS
+### Чекпоинты
+* Подключть свой файл стилей
+* Создать макет сервиса управления задачами, по подобию trello, не используюя bootstrap
+## JS
+### Чекпоинты
+* Подключть свой файл скриптов
+* Добавить в макет динамическое добавление досок и задач в доски
+## React
+### Чекпоинты
+* Создать проект используя [create-react-app](https://facebook.github.io/create-react-app/)
+* Создать макет сервиса управления задачами, по подобию trello, с динамическим добавлением досок и задач, используюя React
